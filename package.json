@@ -1,21 +1,21 @@
 {
   "name": "end_to_end_testing_with_testcafe",
   "version": "1.0.0",
-  "description": "Tests used in the End-to-End Testing with TestCafe book",
+  "description": "Demo repo showing how to run TestCafe tests using LambdaTest and TravisCI",
   "main": "login_test.js",
   "scripts": {
     "test": "testcafe 'lambdatest:MicrosoftEdge@84.0:MacOS Catalina' *_test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/testingwithtestcafe/end_to_end_testing_with_testcafe.git"
+    "url": "git+https://github.com/dennmart/lambdatest_travisci_testcafe.git"
   },
   "author": "Dennis Martinez",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/testingwithtestcafe/end_to_end_testing_with_testcafe/issues"
+    "url": "https://github.com/dennmart/lambdatest_travisci_testcafe/issues"
   },
-  "homepage": "https://github.com/testingwithtestcafe/end_to_end_testing_with_testcafe#readme",
+  "homepage": "https://github.com/dennmart/lambdatest_travisci_testcafe#readme",
   "dependencies": {
     "testcafe": "^1.8.7",
     "testcafe-browser-provider-lambdatest": "^2.0.2"
